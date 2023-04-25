@@ -1,0 +1,401 @@
+[
+  {
+    "TIENDA_ID": "Tienda_Lurín",
+    "TIENDA_STRING": "Tienda Lurín",
+    "UBIGEO": "PE150119",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lurin",
+    "DIRECCION": "Calle Monasterio S/N Predio San Vicente Parcela B-63 sub lote C - Lurín"
+  },
+  {
+    "TIENDA_ID": "Tienda_Ate",
+    "TIENDA_STRING": "Tienda Ate",
+    "UBIGEO": "PE150103",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Ate",
+    "DIRECCION": "Av. Los Ingenieros N°178 - Urb. Santa Raquel - Ate-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Open_Plaza_Angamos",
+    "TIENDA_STRING": "Tienda Open Plaza Angamos",
+    "UBIGEO": "PE150141",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Surquillo",
+    "DIRECCION": "Av. Nueva Tomás Marsano Nº 961 Tda. 60 - Surquillo- Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Open_Plaza_Atocongo",
+    "TIENDA_STRING": "Tienda Open Plaza Atocongo",
+    "UBIGEO": "PE150133",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Juan de Miraflores",
+    "DIRECCION": "Av. Circunvalación Nº1803 Tda.16B - Sotano - San Juan De Miraflores-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Outlet_Vulcano",
+    "TIENDA_STRING": "Tienda Outlet Vulcano",
+    "UBIGEO": "PE150103",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Ate",
+    "DIRECCION": "Calle Vulcano Nº 120 Tda. 203 - Urb. Vulcano - Ate-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Plaza_Norte",
+    "TIENDA_STRING": "Tienda Plaza Norte",
+    "UBIGEO": "PE150112",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Independencia",
+    "DIRECCION": "Av. Tomás Valle cruce con Av. Panamericana Norte y Av. Túpac Amaru - Tda 201-203 - Independencia-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Plaza_San_Miguel",
+    "TIENDA_STRING": "Tienda Plaza San Miguel",
+    "UBIGEO": "PE150136",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Miguel",
+    "DIRECCION": "Av. Universitaria con Av. La Marina - Tda. B209  - San Miguel- Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Plaza_Lima_Sur",
+    "TIENDA_STRING": "Tienda Plaza Lima Sur",
+    "UBIGEO": "PE150101",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lima",
+    "DIRECCION": "Av. Prolong. Paseo De La República S/N Tda. 2219 (201) - Chorrillos- Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Centro_Civico",
+    "TIENDA_STRING": "Tienda Real Plaza Centro Civico",
+    "UBIGEO": "PE150101",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lima",
+    "DIRECCION": "Av. Inca Garcilazo De La Vega Nº 1337 Tda. 115 - Centro Cívico Lima  - Cercado de Lima - Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Primavera",
+    "TIENDA_STRING": "Tienda Real Plaza Primavera",
+    "UBIGEO": "PE150130",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Borja",
+    "DIRECCION": "Av. Angamos Este Nº 2681-2° Nivel - Tda. Lc-222 - San Borja - Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Santa_Clara",
+    "TIENDA_STRING": "Tienda Real Plaza Santa Clara",
+    "UBIGEO": "PE150103",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Ate",
+    "DIRECCION": "Av. Nicolas Ayllón 8694 - Tda. Lc-133  - Ate - Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Risso",
+    "TIENDA_STRING": "Tienda Risso",
+    "UBIGEO": "PE150116",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lince",
+    "DIRECCION": "Av. Arenales 2283 - Lince"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Salaverry",
+    "TIENDA_STRING": "Tienda Real Plaza Salaverry",
+    "UBIGEO": "PE150113",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Jesús María",
+    "DIRECCION": "Av. General Felipe Salaverry Nº 2370 Lc-349 - Jesus Maria-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_San_Juan_de_Miraflores",
+    "TIENDA_STRING": "Tienda San Juan de Miraflores",
+    "UBIGEO": "PE150133",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Juan de Miraflores",
+    "DIRECCION": "Av. San Juan Nº 1160 - San Juan De Miraflores-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Puruchuco",
+    "TIENDA_STRING": "Tienda Real Plaza Puruchuco",
+    "UBIGEO": "PE150103",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Ate",
+    "DIRECCION": "Av. Nicolás Ayllón 4770 Lc 240 - Ate"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mall_Plaza_Comas",
+    "TIENDA_STRING": "Tienda Mall Plaza Comas",
+    "UBIGEO": "PE150110",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Comas",
+    "DIRECCION": "Mall Plaza Comas - Av. Los ángeles No 602 DPT tienda  A-208  - Comas- Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_La_Rambla_San_Borja_I",
+    "TIENDA_STRING": "Tienda La Rambla San Borja I",
+    "UBIGEO": "PE150130",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Borja",
+    "DIRECCION": "Av. Javier Prado Este Nº 2010 2do. nivel Tda 209 - Urb. San Borja - San Borja-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Andahuaylas",
+    "TIENDA_STRING": "Tienda Andahuaylas",
+    "UBIGEO": "PE150101",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lima",
+    "DIRECCION": "Jirón Andahuaylas N°719 - Cercado De Lima-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mall_Plaza_Bellavista",
+    "TIENDA_STRING": "Tienda Mall Plaza Bellavista",
+    "UBIGEO": "PE070102",
+    "DIRECCION_DISTRITO": "Callao - Prov. Const. del Callao - Bellavista",
+    "DIRECCION": "Av. Oscar R. Benavides 3866 - Tda. Nº B-1047 - Urb. El Aguilar - Bellavista-Callao"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mall_Aventura_Plaza_Santa_Anita",
+    "TIENDA_STRING": "Tienda Mall Aventura Plaza Santa Anita",
+    "UBIGEO": "PE150137",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Santa Anita",
+    "DIRECCION": "Av. Carretera Central Nº 111 Tda.n°B - 1002 - Santa Anita-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Gamarra_I",
+    "TIENDA_STRING": "Tienda Gamarra I",
+    "UBIGEO": "PE150115",
+    "DIRECCION_DISTRITO": "Lima - Lima  - La Victoria",
+    "DIRECCION": "Jr. Mariscal Agustin Gamarra Nº 912 - Urb. San Pablo - La Victoria-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Gamarra_II",
+    "TIENDA_STRING": "Tienda Gamarra II",
+    "UBIGEO": "PE150115",
+    "DIRECCION_DISTRITO": "Lima - Lima  - La Victoria",
+    "DIRECCION": "Prolongación Gamarra N°650 - La Victoria-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Jesús_María",
+    "TIENDA_STRING": "Tienda Jesús María",
+    "UBIGEO": "PE150113",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Jesús María",
+    "DIRECCION": "Jr. Horacio Urteaga Nº1309 - Jesus Maria-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Jirón_de_la_Unión",
+    "TIENDA_STRING": "Tienda Jirón de la Unión",
+    "UBIGEO": "PE150101",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Lima",
+    "DIRECCION": "Jr. De La Unión Nº 839 - Cercado De Lima-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Jockey_Plaza",
+    "TIENDA_STRING": "Tienda Jockey Plaza",
+    "UBIGEO": "PE150140",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Santiago de Surco",
+    "DIRECCION": "Av. Javier Prado Este 4200 Tda. 203 - Santiago De Surco-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_La_Rambla_Breña",
+    "TIENDA_STRING": "Tienda La Rambla Breña",
+    "UBIGEO": "PE150105",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Breña",
+    "DIRECCION": "Av. Brasil Nº 778 - Tda. 107-108 - Breña-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_La_Rambla_San_Borja_II",
+    "TIENDA_STRING": "Tienda La Rambla San Borja II",
+    "UBIGEO": "PE150130",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Borja",
+    "DIRECCION": "Av. Javier Prado Este Nº 2010 2do. nivel Tda 209 - Urb. San Borja - San Borja-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mall_Del_Sur",
+    "TIENDA_STRING": "Tienda Mall Del Sur",
+    "UBIGEO": "PE150133",
+    "DIRECCION_DISTRITO": "Lima - Lima  - San Juan de Miraflores",
+    "DIRECCION": "Av. Los Lirios 301 Local 1112 – San Juan de Miraflores"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mega_Plaza_Independencia",
+    "TIENDA_STRING": "Tienda Mega Plaza Independencia",
+    "UBIGEO": "PE150112",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Independencia",
+    "DIRECCION": "Av. Alfredo Mendiola Nº 3698 Tda. 17A - Independencia-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Minka",
+    "TIENDA_STRING": "Tienda Minka",
+    "UBIGEO": "PE070101",
+    "DIRECCION_DISTRITO": "Callao - Prov. Const. del Callao - Callao",
+    "DIRECCION": "Av. Argentina 3093 - Tda 110-111 - Callao"
+  },
+  {
+    "TIENDA_ID": "Tienda_Magdalena",
+    "TIENDA_STRING": "Tienda Magdalena",
+    "UBIGEO": "PE150120",
+    "DIRECCION_DISTRITO": "Lima - Lima  - Magdalena del Mar",
+    "DIRECCION": "Jr. Leoncio Prado (Antes Ulises Delboy) N°794 - Magdalena-Lima"
+  },
+  {
+    "TIENDA_ID": "Tienda_Aguas_Verdes",
+    "TIENDA_STRING": "Tienda Aguas Verdes",
+    "UBIGEO": "PE240302",
+    "DIRECCION_DISTRITO": "Tumbes - Zarumilla  - Aguas Verdes",
+    "DIRECCION": "AV. REPUBLICA DEL PERU N°212 A (Mz. N Lt. 63)- CIUDAD DE AGUAS VERDES - ZARUMILLA - TUMBES"
+  },
+  {
+    "TIENDA_ID": "Tienda_Aventura_Arequipa",
+    "TIENDA_STRING": "Tienda Aventura Arequipa",
+    "UBIGEO": "PE040112",
+    "DIRECCION_DISTRITO": "Arequipa - Arequipa - Paucarpata",
+    "DIRECCION": "AV. PORONGOCHE Nº 500 TDA 1085 - PAUCARPATA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Arequipa2",
+    "TIENDA_STRING": "Tienda Arequipa2",
+    "UBIGEO": "PE040103",
+    "DIRECCION_DISTRITO": "Arequipa - Arequipa - Cayma",
+    "DIRECCION": "AV. EJERCITO N°1009  LC-213B CAYMA - AREQUIPA AREQUIPA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Plaza_Cajamarca",
+    "TIENDA_STRING": "Tienda Real Plaza Cajamarca",
+    "UBIGEO": "PE060101",
+    "DIRECCION_DISTRITO": "Cajamarca - Cajamarca - Cajamarca",
+    "DIRECCION": "Av. Evitamiento Norte - Tda. N° 134/132 Lote 1A  Cajamarca -Cajamarca"
+  },
+  {
+    "TIENDA_ID": "Tienda_Chiclayo",
+    "TIENDA_STRING": "Tienda Chiclayo",
+    "UBIGEO": "PE140101",
+    "DIRECCION_DISTRITO": "Lambayeque - Chiclayo  - Chiclayo",
+    "DIRECCION": "CALLE MARISCAL ANDRES AVELINO CACERES 222 INT. 130"
+  },
+  {
+    "TIENDA_ID": "Tienda_Chiclayo_2",
+    "TIENDA_STRING": "Tienda Chiclayo 2",
+    "UBIGEO": "PE140101",
+    "DIRECCION_DISTRITO": "Lambayeque - Chiclayo  - Chiclayo",
+    "DIRECCION": "CAL. ELIAS AGUIRRE NRO. 427  CHICLAYO- LAMBAYEQUE"
+  },
+  {
+    "TIENDA_ID": "Tienda_Chimbote",
+    "TIENDA_STRING": "Tienda Chimbote",
+    "UBIGEO": "PE021801",
+    "DIRECCION_DISTRITO": "Áncash - Santa - Chimbote",
+    "DIRECCION": "AV. VICTOR R.HAYA DE LA TORRE NRO. 4522 INT. 83-84 ( MEGA PLAZA CHIMBOTE)"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mega_Plaza_Chincha",
+    "TIENDA_STRING": "Tienda Mega Plaza Chincha",
+    "UBIGEO": "PE110206",
+    "DIRECCION_DISTRITO": "Ica - Chincha  - Grocio Prado",
+    "DIRECCION": "PROLONGACION MCAL BENAVIDES 1224 TDA. 20 GROCIO PRADO - CHINCHA - ICA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Cusco",
+    "TIENDA_STRING": "Tienda Cusco",
+    "UBIGEO": "PE080101",
+    "DIRECCION_DISTRITO": "Cusco - Cusco - Cusco",
+    "DIRECCION": "Av. De La Cultura  S/N Tda. N° 150 Lote A Cuzco"
+  },
+  {
+    "TIENDA_ID": "Tienda_Huancayo",
+    "TIENDA_STRING": "Tienda Huancayo",
+    "UBIGEO": "PE120101",
+    "DIRECCION_DISTRITO": "Junín - Huancayo  - Huancayo",
+    "DIRECCION": "AV. FERROCARRIL 1035 INT. 241- Huancayo - Junín"
+  },
+  {
+    "TIENDA_ID": "Tienda_Open_Huancayo",
+    "TIENDA_STRING": "Tienda Open Huancayo",
+    "UBIGEO": "PE120101",
+    "DIRECCION_DISTRITO": "Junín - Huancayo  - Huancayo",
+    "DIRECCION": "Av.  Ferrocarril Nº 146 – 150 - esq. con Prolongación San Carlos Nº 136 - LC-09 - ALMACEN A-01 - Huancayo"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Huanuco",
+    "TIENDA_STRING": "Tienda Real Huanuco",
+    "UBIGEO": "PE100101",
+    "DIRECCION_DISTRITO": "Huánuco - Huánuco - Huanuco",
+    "DIRECCION": "JR. INDEPENDENCIA S/N INTERIOR N° 117 (CUADRAS 16 Y 17) LAS MORAS - HUANUCO"
+  },
+  {
+    "TIENDA_ID": "Tienda_Plaza_Ica",
+    "TIENDA_STRING": "Tienda Plaza Ica",
+    "UBIGEO": "PE110101",
+    "DIRECCION_DISTRITO": "Ica - Ica  - Ica",
+    "DIRECCION": "AV. SAN MARTIN N° 727-763  LC225 - ICA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Juliaca_Juliaca",
+    "TIENDA_STRING": "Tienda Real Juliaca Juliaca",
+    "UBIGEO": "PE210101",
+    "DIRECCION_DISTRITO": "Puno - Puno  - Puno",
+    "DIRECCION": "CALLE TUMBES Y SAN MARTIN S/N INT. 133"
+  },
+  {
+    "TIENDA_ID": "Tienda_Real_Piura",
+    "TIENDA_STRING": "Tienda Real Piura",
+    "UBIGEO": "PE200101",
+    "DIRECCION_DISTRITO": "Piura - Piura  - Piura",
+    "DIRECCION": "AV. SANCHEZ CERRO N°234 ZONA IND. LC-115 PIURA - PIURA - PIURA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Open_Piura",
+    "TIENDA_STRING": "Tienda Open Piura",
+    "UBIGEO": "PE200101",
+    "DIRECCION_DISTRITO": "Piura - Piura  - Piura",
+    "DIRECCION": "Avenida Andrés Avelino Cáceres N° 147. Urb. Miraflores. Castilla- Piura LOCAL  116"
+  },
+  {
+    "TIENDA_ID": "Tienda_Pucallpa",
+    "TIENDA_STRING": "Tienda Pucallpa",
+    "UBIGEO": "PE250102",
+    "DIRECCION_DISTRITO": "Ucayali - Coronel Portillo  - Campoverde",
+    "DIRECCION": "AV. CENTENARIO N° 1642 TDA. 120 YARINACOCHA - CORONEL PORTILLO - UCAYALI"
+  },
+  {
+    "TIENDA_ID": "Tienda_Sullana",
+    "TIENDA_STRING": "Tienda Sullana",
+    "UBIGEO": "PE200601",
+    "DIRECCION_DISTRITO": "Piura - Sullana  - Sullana",
+    "DIRECCION": "ENRIQUE PALACIOS N°590 - SULLANA - PIURA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Tacna",
+    "TIENDA_STRING": "Tienda Tacna",
+    "UBIGEO": "PE230101",
+    "DIRECCION_DISTRITO": "Tacna - Tacna  - Tacna",
+    "DIRECCION": "CALLE SAN MARTIN N°742 - 744 - 746 -  LOCAL (Nº1-Nº2) TACNA"
+  },
+  {
+    "TIENDA_ID": "Tienda_Tarapoto_tarapoto",
+    "TIENDA_STRING": "Tienda Tarapoto tarapoto",
+    "UBIGEO": "PE220901",
+    "DIRECCION_DISTRITO": "San Martín - San Martín  - Tarapoto",
+    "DIRECCION": "JR. PLAZA DE ARMAS Nº 455 - SAN MARTIN TARAPOTO"
+  },
+  {
+    "TIENDA_ID": "Tienda_Trujillo",
+    "TIENDA_STRING": "Tienda Trujillo",
+    "UBIGEO": "PE130101",
+    "DIRECCION_DISTRITO": "La Libertad - Trujillo  - Trujillo",
+    "DIRECCION": "Av. América Oeste 750 Urb. El Ingenio Tda. 1060 Trujillo - La Libertad"
+  },
+  {
+    "TIENDA_ID": "TiendaKayser_Trujillo_2",
+    "TIENDA_STRING": "TiendaKayser Trujillo 2",
+    "UBIGEO": "PE130101",
+    "DIRECCION_DISTRITO": "La Libertad - Trujillo  - Trujillo",
+    "DIRECCION": "JR. AYACUCHO 550 - LA LIBERTAD - TRUJILLO"
+  },
+  {
+    "TIENDA_ID": "Tienda_Mall_Aventura_Chiclayo",
+    "TIENDA_STRING": "Tienda Mall Aventura Chiclayo",
+    "UBIGEO": "PE140101",
+    "DIRECCION_DISTRITO": "Lambayeque - Chiclayo  - Chiclayo",
+    "DIRECCION": "Av. Panamericana 639 Local B-1010 Chiclayo - Lambayeque"
+  },
+  {
+    "TIENDA_ID": "Tienda_Tambopata",
+    "TIENDA_STRING": "Tienda Tambopata",
+    "UBIGEO": "PE170101",
+    "DIRECCION_DISTRITO": "Madre de Dios - Tambopata  - Tambopata",
+    "DIRECCION": "Av. León Velarde Lt.4 Interior 3 - Tambopata - Madre de Dios."
+  },
+  {
+    "TIENDA_ID": "Tienda_Abancay",
+    "TIENDA_STRING": "Tienda Abancay",
+    "UBIGEO": "PE030101",
+    "DIRECCION_DISTRITO": "Apurímac - Abancay - Abancay",
+    "DIRECCION": "Jr. Arequipa N°309 - Abancay - Apurímac"
+  },
+  {
+    "TIENDA_ID": "Tienda_Chimbote_2",
+    "TIENDA_STRING": "Tienda Chimbote 2",
+    "UBIGEO": "PE021801",
+    "DIRECCION_DISTRITO": "Áncash - Santa - Chimbote",
+    "DIRECCION": "JR. LADISLAO ESPINAR 592 MZ. 33 LT. 13-A - CHIMBOTE."
+  }
+]
