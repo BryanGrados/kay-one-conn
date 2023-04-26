@@ -163,8 +163,7 @@ export async function transformData(datos_pedido) {
 				const imagen_producto = readArray(path[0].detalle_pedido, "url_imagen_sku");
 				const calcular_porcentaje = (precio, descuento) => {return fixedNumber((descuento * 100) / precio, 2)};
 				const total_sin_igv = venta_total.map((precio) => {
-					const porcentajeIgv = 0.18;
-					const totalSinIgv = precio / (1 + porcentajeIgv);
+					const totalSinIgv = precio - ((precio * 18) / 100);
 					return fixedNumber(totalSinIgv, 4);
 				  });
 				//------------------------------------------//
@@ -224,32 +223,15 @@ export async function transformData(datos_pedido) {
 				const id_pago = path[0].situacion_pagos[0].mo;
 				const numero_documento = getNumeroDocumento(path, ruc);
 				const tipo_documento = getTipoDocumento(tipo_comprobante);
-
-				// const final_total_sin_igv = fixedNumber(
-				// 	total_sin_igv.reduce((a, b) => a + b, 0),
-				// 	2,
-				// );
-				// const porcentaje_cupon = 0;
-				// const total_orden = fixedNumber(
-				// 	venta_total.reduce((a, b) => a + b, 0),
-				// 	2,
-				// );
-				// const total_orden_final = fixedNumber(
-				// 	total_orden - (total_orden - gran_total_samishop),
-				// 	2,
-				// );
-				// const descuento_cupon = fixedNumber(
-				// 	(total_orden - gran_total_samishop) / cantidad.length,
-				// 	2,
-				// );
-
-				// const fecha_entrega = "";
-				// const pedido_sap = "";
-				// const codigo_vendedor = "";
-				// const comision_vendedor = "";
-				// const servicion_envio = formatText(
-				// 	path[0].datos_envio[0].servicio_envio,
-				// );
+				const final_total_sin_igv = fixedNumber(total_sin_igv.reduce((a, b) => a + b, 0),2);
+				const porcentaje_cupon = 0;
+				const total_orden = fixedNumber(venta_total.reduce((a, b) => a + b, 0),2);
+				const descuento_cupon = fixedNumber((total_orden - gran_total_samishop) / cantidad.length,2);
+				const fecha_entrega = "";
+				const pedido_sap = "";
+				const codigo_vendedor = "";
+				const comision_vendedor = "";
+				const servicion_envio = formatText(path[0].datos_envio[0].servicio_envio);
 
 				result.push({
 					NUMERO_ORDEN: numero_orden,
@@ -267,7 +249,6 @@ export async function transformData(datos_pedido) {
 					DESCUENTO_CONDICION: descuento_condicion,
 					GRAN_TOTAL_API: gran_total_samishop,
 					GRAN_TOTAL: gran_total,
-					// DESCUENTO_CUPON: descuento_cupon,
 					NOMBRE_RECEPTOR: nombre_receptor,
 					DIRECCION: direccion,
 					DIRECCION_2: direccion2,
@@ -294,24 +275,17 @@ export async function transformData(datos_pedido) {
 					PARA: para,
 					MO: mo,
 					ID_PAGO: id_pago,
-					TIPO_DOCUMENTO: tipo_documento,
 					NUMERO_DOCUMENTO: numero_documento,
-					// // FINAL_TOTAL_SIN_IGV: final_total_sin_igv,
-					// // PORCENTAJE_CUPON: porcentaje_cupon,
-					// // TOTAL_ORDEN: total_orden_final,
-					// // FECHA_ENTREGA: fecha_entrega,
-					// // PEDIDO_SAP: pedido_sap,
-					// // CODIGO_VENDEDOR: codigo_vendedor,
-					// // COMISION_VENDEDOR: comision_vendedor,
-					// // SERVICIO_ENVIO: servicion_envio,
-					// //**************//
-					// TOTAL_PRECIO_ENVIO: total_precio_envio,
-					// // TOTAL_ORDEN_PRE: total_orden,
-					// DISTRITO: distrito,
-					// PROVINCIA: provincia,
-					// GRAN_TOTAL_SAMISHOP: gran_total_samishop,
-					// GRAN_TOTAL: gran_total,
-					//**************//
+					TIPO_DOCUMENTO: tipo_documento,
+					FINAL_TOTAL_SIN_IGV: final_total_sin_igv,
+					PORCENTAJE_CUPON: porcentaje_cupon,
+					TOTAL_ORDEN: total_orden,
+					DESCUENTO_CUPON: descuento_cupon,
+					FECHA_ENTREGA: fecha_entrega,
+					PEDIDO_SAP: pedido_sap,
+					CODIGO_VENDEDOR: codigo_vendedor,
+					COMISION_VENDEDOR: comision_vendedor,
+					SERVICIO_ENVIO: servicion_envio,
 				});
 			});
 			resolve(result);

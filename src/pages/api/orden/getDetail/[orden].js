@@ -20,6 +20,7 @@ export default async function handler(req, res) {
 	const isOrdenOnRedis = await obtenerOrden(orden);
 
 	if (isOrdenOnRedis) {
+		console.log("Orden encontrada en redis");
 		return res.status(200).json(isOrdenOnRedis);
 	}
 
@@ -30,9 +31,15 @@ export default async function handler(req, res) {
 		},
 	});
 
-	const ordenData = await transformData([
+	let ordenData = await transformData([
 		[response.data?.obj?.[0]?.datos_pedido?.datos_pedido[0]],
 	]);
+	//convert with javascript [{}] to {}
+	ordenData = ordenData[0];
+
+	console.log("Orden encontrada en API");
+	//Guardar la orden en redis
+	await crearOrden(ordenData);
 
 	return res.status(200).json(ordenData);
 }
