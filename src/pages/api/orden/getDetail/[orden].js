@@ -34,7 +34,7 @@ export default async function handler(req, res) {
 	let ordenData = await transformData([
 		[response.data?.obj?.[0]?.datos_pedido?.datos_pedido[0]],
 	]);
-	//convert with javascript [{}] to {}
+
 	ordenData = ordenData[0];
 
 	console.log("Orden encontrada en API");

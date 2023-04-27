@@ -1,7 +1,6 @@
 import { Schema, Repository } from "redis-om";
 import redisClient from "@/lib/conecction";
 
-
 const ordenSchema = new Schema(
 	"orden",
 	{
@@ -16,7 +15,7 @@ const ordenSchema = new Schema(
 		TELEFONO_COMPRADOR: { type: "number" },
 		MONEDA: { type: "text" },
 		PRECIO_ENVIO_TOTAL: { type: "number" },
-		LISTADO_PRODUCTOS: { type: "string[]" },
+		// LISTADO_PRODUCTOS: { type: "" },
 		DESCUENTO_CONDICION: { type: "number" },
 		GRAN_TOTAL_API: { type: "number" },
 		GRAN_TOTAL: { type: "number" },
@@ -59,7 +58,7 @@ const ordenSchema = new Schema(
 		SERVICIO_ENVIO: { type: "text" },
 	},
 	{
-		dataStructure: "HASH",
+		dataStructure: "JSON",
 	},
 );
 
@@ -69,7 +68,10 @@ const ordenRepository = new Repository(ordenSchema, redisClient);
 
 export async function crearOrden(ordenData) {
 	try {
-		const ordenCreada = await ordenRepository.save(ordenData.NUMERO_ORDEN, ordenData);
+		const ordenCreada = await ordenRepository.save(
+			ordenData.NUMERO_ORDEN,
+			ordenData,
+		);
 
 		return ordenCreada;
 	} catch (err) {
