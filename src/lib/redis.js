@@ -68,10 +68,15 @@ const ordenRepository = new Repository(ordenSchema, redisClient);
 
 export async function crearOrden(ordenData) {
 	try {
+		//1 minuto
+		const ttlInSeconds = 60 * 1;
+
 		const ordenCreada = await ordenRepository.save(
 			ordenData.NUMERO_ORDEN,
 			ordenData,
 		);
+
+		await ordenRepository.expire(ordenData.NUMERO_ORDEN, ttlInSeconds);
 
 		return ordenCreada;
 	} catch (err) {
