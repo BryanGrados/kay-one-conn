@@ -2,7 +2,6 @@ import useSWR, { SWRConfig } from "swr";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import { useRef, useState } from "react";
-import React, { useCallback } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 

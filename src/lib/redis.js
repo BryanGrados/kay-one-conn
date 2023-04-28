@@ -1,5 +1,7 @@
 import { Schema, Repository } from "redis-om";
-import redisClient from "@/lib/conecction";
+import { createClient } from "redis";
+
+const url = process.env.REDIS_URL;
 
 const ordenSchema = new Schema(
 	"orden",
@@ -62,33 +64,37 @@ const ordenSchema = new Schema(
 	},
 );
 
-redisClient.on("error", (err) => console.log("Redis Cliente Error", err));
-
-const ordenRepository = new Repository(ordenSchema, redisClient);
-
 export async function crearOrden(ordenData) {
+	const redisClient = createClient({ url });
 	try {
+		const ordenRepository = new Repository(ordenSchema, redisClient);
 		const ordenCreada = await ordenRepository.save(
 			ordenData.NUMERO_ORDEN,
 			ordenData,
 		);
-
+		redisClient.quit(); // cerrar la conexion
 		return ordenCreada;
 	} catch (err) {
+		redisClient.quit(); // cerrar la conexion
 		console.error(err);
 	}
 }
 
 export async function obtenerOrden(orden) {
+	const redisClient = createClient({ url });
 	try {
+		const ordenRepository = new Repository(ordenSchema, redisClient);
 		const findOrden = await ordenRepository.fetch(orden);
 
 		if (!findOrden.NUMERO_ORDEN) {
+			redisClient.quit(); // cerrar la conexion
 			return;
 		} else {
+			redisClient.quit(); // cerrar la conexion
 			return findOrden;
 		}
 	} catch (err) {
+		redisClient.quit(); // cerrar la conexion
 		console.error(err);
 	}
 }
